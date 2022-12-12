@@ -1,0 +1,242 @@
+header {
+  padding: 20px 0;
+}
+header .logo {
+  width: 20%;
+}
+header .nav-menu {
+  width: 80%;
+}
+header .nav-menu ul li a {
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+header .nav-menu ul li a:hover {
+  color: #534FF8;
+}
+header .nav-menu ul li a:hover .fa-solid {
+  transform: rotate(180deg);
+}
+header .nav-menu ul li a .fa-solid {
+  transform: rotate(0deg);
+  transition: 1s;
+}
+header .nav-menu ul li:last-child {
+  background-color: blue;
+  border-radius: 8mm;
+}
+header .nav-menu ul li:last-child a {
+  color: wheat;
+}
+
+.box-text {
+  background-image: url(/image/banner-bg11.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  border-radius: 50px 50px 50px 50px;
+  padding: 245px 10px 245px 10px;
+  text-align: center;
+}
+.box-text h1 {
+  font-size: 70px;
+  line-height: 1.18;
+  color: #fff;
+  font-weight: 700;
+  margin: 0px 0px 30px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-text p {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0% 16% 4.6% 16%;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.newsletter {
+  background-color: aqua;
+  position: relative;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 22px 35px 22px 35px;
+  border-radius: 100px 100px 100px 100px;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-color: rgba(255, 255, 255, 0.631372549);
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  color: #ffffff;
+  font-size: 16px;
+  width: 50%;
+  max-width: 50%;
+  opacity: 1;
+}
+
+.trusted {
+  margin-top: 40px;
+  text-align: center;
+  justify-content: space-between;
+}
+.trusted .image {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.trusted h1 {
+  font-size: 35px;
+  line-height: 38px;
+  color: #353535;
+  padding: 50px;
+}
+
+.what h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #121933;
+}
+.what p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #303030;
+  margin-bottom: 70px;
+  padding-top: 30px;
+}
+.what .image {
+  margin-top: 90px;
+}
+.what .image .img-fluid {
+  border-radius: 45px 45px 45px 45px;
+}
+
+.btn-text {
+  background-color: #534FF8;
+  padding: 18px 38px 16px 38px;
+  color: #ffffff;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-style: none;
+}
+
+.take h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #121933;
+}
+.take p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #303030;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+.take .image {
+  margin-top: 90px;
+}
+.take .image .img-fluid {
+  border-radius: 45px 45px 45px 45px;
+}
+.take ul {
+  list-style: none;
+}
+.take ul li {
+  padding: 10px;
+}
+.take ul li i {
+  color: #534FF8;
+  padding-right: 10px;
+  font-size: 15x;
+}
+
+.get {
+  background-color: #534FF8;
+  padding: 18px 38px 16px 38px;
+  color: #ffffff;
+  border-radius: 40px 40px 40px 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-style: none;
+}
+
+.trial {
+  color: #353535;
+  padding: 18px 15px 16px 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.trial:hover {
+  color: #534FF8;
+}
+
+.tools-suite {
+  background-image: linear-gradient(130deg, #f5f4ff 0%, #fef4f6 100%);
+  margin-top: 70px;
+}
+.tools-suite .suite-box {
+  text-align: center;
+}
+.tools-suite h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  color: #121933;
+}
+.tools-suite p {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #303030;
+}
+
+.keyword-box {
+  margin: 10px;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5%;
+  margin-top: 60px;
+  padding: 15px;
+  width: 30%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.keyword-box img {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.keyword-box h1 {
+  margin-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: sans-serif;
+  line-height: 35px;
+  color: #121933;
+  margin-top: 15px;
+}
+.keyword-box p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.863);
+}
+
+.keyword-boxes {
+  padding-left: 60px;
+}/*# sourceMappingURL=style.css.map */
